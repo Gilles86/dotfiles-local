@@ -1,0 +1,5 @@
+# FSL
+FSLDIR=/usr/share/fsl/5.0
+PATH=${FSLDIR}/bin:${PATH}
+. ${FSLDIR}/etc/fslconf/fsl.sh
+export FSLDIR PATH
