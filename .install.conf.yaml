@@ -3,6 +3,7 @@
 - link:
     ~/.dotfiles-local: ''
     ~/.zshrc_local_after: zshrc_local_after
+    ~/.zshrc_local_before: zshrc_local_before
 
 - shell:
   - [git submodule update --init --recursive, Installing/updating submodules]
